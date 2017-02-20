@@ -1,0 +1,130 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+nav ul a,
+nav .brand-logo {
+  color: #ffe443;
+  margin-top: 4px;
+}
+nav .brand-logo {
+font-family: 'Quicksand', sans-serif;
+}
+nav .nav-wrapper {
+    padding: 0 0 0 60px;
+}
+
+h5 {
+  line-height: 3rem;
+}
+
+p {
+  line-height: 1.7rem;
+}
+
+.card-title {
+  line-height: 1rem;
+}
+
+.btn-flat {
+  padding: 30%;
+}
+
+.feature {
+  padding: 0 60px;
+}
+
+.button-collapse {
+  color: #fff;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.section-intro {
+  height: 100%;
+  width: 100%;
+}
+
+  .header {
+    margin-top: 15%;
+  }
+  .header-subtitle {
+    margin-top: 10%;
+    font-size: 1.3em;
+  }
+  .btn-large {
+    margin-bottom: 15%;
+  }
+  /* label underline focus color */
+  .input-field input[type=date]:focus {
+    border-bottom: 1px solid #ffe443;
+    box-shadow: 0 1px 0 0 #ffe443;
+  }
+  /* label underline focus color */
+  .input-field input[type=email]:focus {
+    border-bottom: 1px solid #ffe443;
+    box-shadow: 0 1px 0 0 #ffe443;
+  }
+  .validate: placeholder {
+    padding-left: 10%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  
+  .nav-wrapper {
+     padding: 0px;
+  }
+}
+
+
+.col-servizio {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.card{
+  margin-top: 10% ;
+}
+
+.icon-block {
+  padding: 0 10px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.social-icon {
+color: #fff;
+}
+.social-icon:hover {
+  color: #ffe443;
+}
